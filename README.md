@@ -53,7 +53,7 @@ Traders segmented by:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 ### 1. Performance Differences
 - Extreme Greed regimes showed higher average PnL.
@@ -71,7 +71,20 @@ Traders segmented by:
 
 ---
 
-## 🎯 Strategy Recommendations
+## Sample Visualizations
+
+### Average PnL by Sentiment
+![Average PnL](outputs/avg_pnl_per_trade.png)
+
+### Win Rate by Sentiment
+![Win Rate](outputs/win_rate.png)
+
+### Trade Count by Sentiment
+![Trade Count](outputs/no_of_trades.png)
+
+---
+
+## Strategy Recommendations
 
 **Rule 1:**  
 During Fear regimes, reduce position sizing to limit potential drawdowns.
@@ -83,7 +96,7 @@ These rules aim to improve risk-adjusted performance while controlling volatilit
 
 ---
 
-## 💼 Business Impact
+## Business Impact
 
 This analysis enables:
 
@@ -94,7 +107,7 @@ This analysis enables:
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python  
 - Pandas  
@@ -116,7 +129,7 @@ This analysis enables:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Option 1: Using Jupyter Notebook
 
@@ -146,7 +159,13 @@ Option 2: Using Google Colab
 - Run all cells from top to bottom
 ---
 
-## 👤 Author
+## Author
 
 AYUSHMAN SHARMA  
 Aspiring Data Scientist | Python | SQL | Cloud Enthusiast
+---
+
+### Reproducibility Note
+
+All results are fully reproducible by running the notebook sequentially from top to bottom.
+Datasets should be placed in the same directory as the notebook.
