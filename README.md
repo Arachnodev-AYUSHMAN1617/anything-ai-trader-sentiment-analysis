@@ -124,14 +124,16 @@ Option 1: Using Jupyter Notebook
 2. Install dependencies:
 
 
+```bash
 pip install -r requirements.txt
+```
 
 
 3. Open the notebook:
 
-
+```bash
 jupyter notebook
-
+```
 
 4. Run all cells sequentially  
 
@@ -146,5 +148,5 @@ Option 2: Using Google Colab
 
 ## 👤 Author
 
-Ayushman Sharma  
+AYUSHMAN SHARMA  
 Aspiring Data Scientist | Python | SQL | Cloud Enthusiast
